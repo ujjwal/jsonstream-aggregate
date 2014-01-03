@@ -14,9 +14,13 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "5eaca0466572dd291d9f2ea9d0d0bf925f30553b",
-   "dependencies": {
+  "dependencies": {
     "JSONStream": "~0.7.1",
     "moment": "~2.5.0",
     "underscore": "~1.5.2"
-  }
+  },
+   "bin": {
+        "jsonstream-aggregate": "index.js"
+    },
+  "devDependencies": {}
 }
